@@ -1,8 +1,9 @@
 # 🧾🛒 JavaSwing ReceiptPro: Modern Receipt Generator 🛍️
-<p align="center">
-  <img src="zad3/header.jpg" width="400"/>
-</p>
 _A modern Java Swing desktop application for creating and managing itemized receipts. Enter product details, calculate totals (net, VAT, gross), and save your receipt with a stylish, user-friendly interface._
+
+<p align="center">
+  <img src="src/zad3/header.jpg" width="400"/>
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java](https://img.shields.io/badge/Java-%3E%3D8-007396.svg?logo=java&logoColor=white)](https://www.java.com/)
