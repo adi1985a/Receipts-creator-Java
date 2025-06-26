@@ -40,4 +40,16 @@ public class Paragon
         }
         return sumaBrutto;
     }
+
+    public boolean removeLast() {
+        if (!pozycje.isEmpty()) {
+            pozycje.remove(pozycje.size() - 1);
+            return true;
+        }
+        return false;
+    }
+
+    public int getCount() {
+        return pozycje.size();
+    }
 }

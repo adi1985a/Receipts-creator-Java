@@ -7,7 +7,7 @@ public class Pobierz_Dane
     {
         if (input.trim().isEmpty()) 
         {
-            JOptionPane.showMessageDialog(null, "Pole nie może być puste!");
+            JOptionPane.showMessageDialog(null, "Field cannot be empty!");
             return null;
         }
         return input.trim();
@@ -21,7 +21,7 @@ public class Pobierz_Dane
         } 
         catch (NumberFormatException e) 
         {
-            JOptionPane.showMessageDialog(null, "Wprowadzono nieprawidłową wartość liczbową!");
+            JOptionPane.showMessageDialog(null, "Invalid numeric value entered!");
             return 0;
         }
     }
@@ -34,7 +34,7 @@ public class Pobierz_Dane
         } 
         catch (NumberFormatException e) 
         {
-            JOptionPane.showMessageDialog(null, "Wprowadzono nieprawidłową wartość liczbową!");
+            JOptionPane.showMessageDialog(null, "Invalid numeric value entered!");
             return 0;
         }
     }
