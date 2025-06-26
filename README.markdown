@@ -24,6 +24,12 @@ _A Java Swing-based desktop application for creating itemized receipts, allowing
 
 **JavaSwing ReceiptPro** (from main class `zad3.Okno_Graficzne`), developed by Adrian Lesniak, is a desktop application built with Java Swing and AWT. It provides a graphical user interface for generating itemized receipts. Users can input details for various products, including name, net price, quantity, and VAT (Value Added Tax) percentage. The application then adds these items to a running receipt, displaying individual item calculations (net, tax, gross). Finally, users can finalize the receipt to view the overall total net amount, total tax, and total gross amount in a summary dialog. The system relies on several assumed classes within a `zad3` package (`Paragon`, `Pobierz_Dane`, `Produkt`, `PozycjaParagonu`) to handle data structures and logic.
 
+<br> 
+<p align="center">
+  <img src="screenshots/1.gif" width="70%">
+</p>
+<br>
+
 ## ✨ Key Features
 
 *   📝 **Product Entry**:
@@ -51,9 +57,18 @@ _A Java Swing-based desktop application for creating itemized receipts, allowing
 
 ## 🖼️ Screenshots (Conceptual)
 
-**Coming soon!**
+_Screenshots of: the main application window with input fields and the receipt display area, an example of items added to the receipt, and the final summary dialog showing total net, tax, and gross amounts._
 
-_This section would ideally show screenshots of: the main application window with input fields and the receipt display area, an example of items added to the receipt, and the final summary dialog showing total net, tax, and gross amounts._
+<p align="center">
+  <img src="screenshots\1.jpg" width="300"/>
+  <img src="screenshots\2.jpg" width="300"/>
+  <img src="screenshots\3.jpg" width="300"/>
+  <img src="screenshots\4.jpg" width="300"/>
+  <img src="screenshots\5.jpg" width="300"/>
+  <img src="screenshots\6.jpg" width="300"/>
+  <img src="screenshots\7.jpg" width="300"/>
+</p>
+
 
 ## ⚙️ System Requirements & Dependencies
 
